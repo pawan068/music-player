@@ -1,0 +1,37 @@
+[
+  {"title": "Montagem",
+   "cover": "picture/montagem.jpg",
+    "src": "musics/montagem.mp3"},
+
+  {"title": "Safari",
+   "cover": "picture/safari.jpg", 
+   "src": "musics/safari.mp3"},
+
+  {"title": "Fearless- Lost Sky",
+   "cover": "picture/fearless.jpg", 
+   "src": "musics/fearless.mp3"},
+
+  {"title": "If the world was Ending",
+   "cover": "picture/ek-haseena.jpg", 
+   "src": "musics/ending.mp3"},
+
+  {"title": "Stay with me",
+   "cover": "picture/stay-with-me.jpg",
+    "src": "musics/stay-with-me.mp3"},
+
+  {"title": "Itna Na",
+   "cover": "picture/itna-na.jpg",
+    "src": "musics/itna-na.mp3"},
+
+  {"title": "Ishq Mubarakh",
+   "cover": "picture/ishq-mub.jpg",
+    "src": "musics/ishq-mubarakh.mp3"},
+
+  {"title": "Ek Haseena Thi",
+   "cover": "picture/ek-haseena.jpg",
+    "src": "musics/Ek-Haseena-Thi.mp3"},
+
+  {"title": "Thank You Flute",
+   "cover": "picture/thank-you.jpg",
+    "src": "musics/thank-you.mp3"}
+]

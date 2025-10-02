@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Player</title>
+  <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=Epunda+Slab:ital,wght@0,300..900;1,300..900&family=Mozilla+Headline:wght@200..700&family=Roboto:ital,wdth,wght@1,75,100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+  <div class="container" id="container">
+
+     <div class="header" id="">
+      <h2><span id="music"><b>MUSIC</b></span>PLAYER</h2>
+      <div class="searchsongs">
+      <input type="search" id="input" placeholder="Search Songs">
+      <div id="search" class="search"><i class="fa-solid fa-magnifying-glass"></i></div>
+      </div>
+
+      <div id="liked-songs" class="liked-songs">
+         <i class="fa-solid fa-heart"></i>
+      </div>
+     </div>
+
+     <div class="songlists" id="songlists">
+
+     </div>
+
+  </div>
+
+  <div class="sidebar" id="sidebar">
+     
+  <div class="sidebar-head">
+  <p id="msg"><center>Liked Songs</center></p>
+   <div class="cross"id="cross"><i class="fa-solid fa-xmark"></i></div>
+</div>
+  
+
+  </div>
+
+
+  <div id="music-player">
+
+   <div id="music-header" class="music-header">
+      <i id="music-back" class="fa-solid fa-chevron-left"></i>
+      <div class="music-logo"><span id="music-lo">Music</span>Player</div>
+   </div>
+
+<div class="center">
+
+   <div class="disk">
+   <div class="cover" id="coverr">
+      <img id="cover-img" src="" alt="">
+   </div>
+   </div>
+
+   <div class="cover-info" id="cover-info">
+       <p id="song-title"></p>
+
+   </div>
+   </div>
+
+  
+
+   
+   <div class="controllers">
+       <div class="progressbar">
+   <input type="range" id="progress" value="0" class="slider"><audio src=""id="audio"></audio>
+   </div>
+   <div class="controls">
+    <button id="prev">⏮ </button>
+    <button id="play">▶ </button>
+    <button id="next">⏭ </button>
+   </div>
+</div>
+
+
+  </div>
+
+
+
+</body>
+<script src="script.js"></script>
+</html>
